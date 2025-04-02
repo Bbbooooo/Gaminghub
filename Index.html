@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Gaming Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #121212; /* Dark background */
+            color: #ffffff; /* Light text color */
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #6a0dad; /* Header border color */
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        header h1:hover {
+            color: #6a0dad; /* Header hover color */
+        }
+        .game-logos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 games per row */
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+        .game-logos a {
+            display: block;
+            width: 150px; /* Adjust size as needed */
+            height: 150px; /* Adjust size as needed */
+            position: relative;
+            overflow: hidden;
+        }
+        .game-logos img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .game-logos img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .game-logos {
+                grid-template-columns: repeat(2, 1fr); /* 2 games per row on mobile */
+            }
+            header h1 {
+                font-size: 28px; /* Smaller header for mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>🎮 Gaming Hub 🎮</h1>
+</header>
+
+<!-- Game Logos Section -->
+<section class="game-logos">
+    <a href="https://example.com/game1" target="_blank">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBCDjXq_900THoLwtKIoMOuph-LMKIufle8aiYpfLgCdG9M0sZ292jNX7onJQw-9T1Kl_3i7Z4UxtgQoYibhU7hitF15SU8tx4hGICGUXcLDyfDSucJi28vt35p7268mifXXaeSK_IZK7b7SM8mPBj-VHzy1uMglJoA4rinwV9CTW3f0aj8Mfdbp_e/s225/images.png" alt="Game 1 Logo">
+    </a>
+    <a href="https://example.com/game2" target="_blank">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBCDjXq_900THoLwtKIoMOuph-LMKIufle8aiYpfLgCdG9M0sZ292jNX7onJQw-9T1Kl_3i7Z4UxtgQoYibhU7hitF15SU8tx4hGICGUXcLDyfDSucJi28vt35p7268mifXXaeSK_IZK7b7SM8mPBj-VHzy1uMglJoA4rinwV9CTW3f0aj8Mfdbp_e/s225/images.png" alt="Game 2 Logo">
+    </a>
+    <a href="https://example.com/game3" target="_blank">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBCDjXq_900THoLwtKIoMOuph-LMKIufle8aiYpfLgCdG9M0sZ292jNX7onJQw-9T1Kl_3i7Z4UxtgQoYibhU7hitF15SU8tx4hGICGUXcLDyfDSucJi28vt35p7268mifXXaeSK_IZK7b7SM8mPBj-VHzy1uMglJoA4rinwV9CTW3f0aj8Mfdbp_e/s225/images.png" alt="Game 3 Logo">
+    </a>
+    <a href="https://example.com/game4" target="_blank">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBCDjXq_900THoLwtKIoMOuph-LMKIufle8aiYpfLgCdG9M0sZ292jNX7onJQw-9T1Kl_3i7Z4UxtgQoYibhU7hitF15SU8tx4hGICGUXcLDyfDSucJi28vt35p7268mifXXaeSK_IZK7b7SM8mPBj-VHzy1uMglJoA4rinwV9CTW3f0aj8Mfdbp_e/s225/images.png" alt="Game 4 Logo">
+    </a>
+</section>
+
+</body>
+</html>
